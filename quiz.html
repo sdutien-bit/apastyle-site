@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test yourself — APA Style Knowledge Study</title>
+  <meta name="description" content="Interactive 15-question APA 7 knowledge test with instant feedback — the same items as Section B of the study survey.">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/quiz-data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">APA Style <span>Knowledge</span> Study</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="bars" aria-hidden="true"></span><span>Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="study.html">The study</a></li>
+          <li><a href="apa-guide.html">APA 7 guide</a></li>
+          <li><a href="quiz.html" aria-current="page">Test yourself</a></li>
+          <li><a href="instruments.html">Survey & interview</a></li>
+          <li><a href="results.html">Results</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <div class="container">
+      <div class="page-head">
+        <h1>Test yourself: APA 7 knowledge check</h1>
+        <p>15 questions — the same items as Section B of our survey. Choose one answer per question; you get feedback straight away. Your answers are not saved or sent anywhere.</p>
+      </div>
+      <p class="note"><strong>Study participants:</strong> please answer the official survey without notes, books or AI tools. This practice version is for learning after you have taken part.</p>
+      <noscript><p class="note">The interactive test needs JavaScript. The questions are also listed on the <a href="instruments.html#section-b">Survey &amp; interview</a> page.</p></noscript>
+      <form id="quiz-form" onsubmit="return false" aria-describedby="score-text">
+        <div id="quiz"></div>
+      </form>
+      <section id="summary" class="card" tabindex="-1" hidden aria-live="polite"></section>
+    </div>
+    <div class="score-box" aria-label="Progress">
+      <div class="container" style="padding:0 1rem">
+        <p id="score-text" style="margin:0" aria-live="polite">Answered 0 of 15</p>
+        <div class="progress" aria-hidden="true"><i id="progress-bar"></i></div>
+        <button class="btn btn-secondary" type="button" id="quiz-reset">Start again</button>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p><strong>APA Style Knowledge Study</strong> — a student research project (teaching prototype).</p>
+        <p>No personal data is published on this site. All results are reported in aggregate and anonymously.</p>
+      </div>
+      <div>
+        <p>Last updated: November 2026</p>
+        <p><a href="contact.html">Contact &amp; feedback</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

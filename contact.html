@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — APA Style Knowledge Study</title>
+  <meta name="description" content="Contact the research team, leave anonymous feedback, and see the study's reference list in APA 7 format.">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">APA Style <span>Knowledge</span> Study</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="bars" aria-hidden="true"></span><span>Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="study.html">The study</a></li>
+          <li><a href="apa-guide.html">APA 7 guide</a></li>
+          <li><a href="quiz.html">Test yourself</a></li>
+          <li><a href="instruments.html">Survey & interview</a></li>
+          <li><a href="results.html">Results</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <div class="container">
+      <div class="page-head">
+        <h1>Contact and references</h1>
+        <p>Questions about the study? Write to the project e-mail or leave anonymous feedback below.</p>
+      </div>
+
+      <div class="grid grid-2">
+        <section class="card" aria-labelledby="team">
+          <h2 id="team">Research team</h2>
+          <p>The project is run by undergraduate students under the supervision of a course instructor. Team members' personal details are not published on this site.</p>
+          <p><strong>Project e-mail:</strong> <span class="need-data">[DATA NEEDED]</span></p>
+          <p><strong>Survey link:</strong> <span class="need-data">[DATA NEEDED]</span></p>
+        </section>
+
+        <section class="card" aria-labelledby="fb">
+          <h2 id="fb">Anonymous feedback</h2>
+          <form id="feedback-form" novalidate>
+            <div class="field">
+              <label for="topic">Topic</label>
+              <select id="topic" name="topic">
+                <option>Question about the study</option>
+                <option>Question about APA style</option>
+                <option>Error on the site</option>
+                <option>Suggestion</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Your message</label>
+              <span class="hint" id="message-hint">At least 10 characters. Please do not include your name, student ID, e-mail or phone number.</span>
+              <textarea id="message" name="message" required aria-describedby="message-hint message-error"></textarea>
+              <p class="error" id="message-error" hidden></p>
+            </div>
+            <button class="btn" type="submit">Send</button>
+            <p class="form-result" id="form-result" tabindex="-1" role="status" hidden>Thank you! Your feedback has been received. (Prototype: nothing is sent to a server.)</p>
+          </form>
+        </section>
+      </div>
+
+      <section aria-labelledby="refs">
+        <h2 id="refs">References</h2>
+        <div class="card">
+          <p class="ref">American Psychological Association. (2020). <i>Publication manual of the American Psychological Association</i> (7th ed.). https://doi.org/10.1037/0000165-000</p>
+          <p class="ref">Braun, V., &amp; Clarke, V. (2006). Using thematic analysis in psychology. <i>Qualitative Research in Psychology, 3</i>(2), 77–101. https://doi.org/10.1191/1478088706qp063oa</p>
+          <p class="ref">Facione, P. A. (1990). <i>Critical thinking: A statement of expert consensus for purposes of educational assessment and instruction</i>. The California Academic Press.</p>
+        </div>
+        <p class="practice">This list follows APA 7: alphabetical order, hanging indent, sentence-case titles, italics for book and journal titles.</p>
+      </section>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p><strong>APA Style Knowledge Study</strong> — a student research project (teaching prototype).</p>
+        <p>No personal data is published on this site. All results are reported in aggregate and anonymously.</p>
+      </div>
+      <div>
+        <p>Last updated: November 2026</p>
+        <p><a href="contact.html">Contact &amp; feedback</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
